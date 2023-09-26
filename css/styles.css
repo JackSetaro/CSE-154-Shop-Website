@@ -1,0 +1,303 @@
+/* 2213829 */
+body,html {
+    background-color: #ffffff;
+    height: 100%;
+  }
+
+.bg {
+    background-image: url(../images/home.jpg);
+    opacity: 58%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+  }
+
+body {
+	margin: 0;
+  height: 100%;
+}
+
+/* ------- NAV -------- */
+
+.nav-bar {
+  background-color: #F698A6;
+  height: 56px;
+  width: 100%;
+  text-align:center;
+}
+
+.nav-bar img{
+  float:left;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.nav-bar ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+  
+.nav-bar li {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+  
+.nav-bar li a {
+  font-family: luminari;
+  text-decoration: none;
+  padding: 15px;
+  color: #000000;
+  line-height: 55px;
+  font-size: 24px;
+}
+
+.nav-bar li a.active{
+  text-decoration: underline;
+}
+  
+#nav-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------- END NAV -------- */
+
+/* ------- INDEX -------- */
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#mainlogo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer{
+  background-color: #F698A6;
+  padding: 65px;
+  color: black;
+  position: relative;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.photo{
+  margin: 15px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: #F698A6;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+/* ------- END INDEX -------- */
+
+/* ------- PARALLAX -------- */
+
+.parallax {
+    background-image: url(../images/car.jpg);
+    opacity: 60%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    background-image: url(../images/room.jpg);
+    opacity: 60%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.midWhite{
+  background-color: #ffffff;
+  padding: 65px;
+  color: black;
+}
+
+.midWhite h2{
+  font-size: 30px;
+}
+
+/* ------- END PARALLAX -------- */
+
+/* ------- ABOUT -------- */
+
+#profile {
+  margin-top: 50px;
+}
+
+.title {
+  font-family: luminari;
+}
+
+#info{
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+
+/* ------- END ABOUT -------- */
+
+/* ------- STORE -------- */
+
+.card {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: luminari;
+  border-radius: 5px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: #F698A6;
+  text-align: center;
+  cursor: pointer;
+  width: 45%;
+  font-size: 18px;
+  border-radius: 6px;
+  margin: 5px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px 0 250px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* adjust column and row sizes for phone screen */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+
+  .row {
+    margin: 0px;
+  }
+}
+
+/* ------- END STORE -------- */
+
+/* ------- CART -------- */
+
+.column-cart {
+  width: 95%;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.row-cart {
+  margin: 20px -5px 25px 25px;
+}
+
+.card-checkout {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: luminari;
+  border-radius: 5px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card-checkout img{
+  width: 10%;
+  height: 10%;
+}
+
+.card-checkout button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: #F698A6;
+  text-align: center;
+  cursor: pointer;
+  width: 45%;
+  font-size: 18px;
+  border-radius: 6px;
+  margin: 5px;
+}
+
+#total{
+  font-family: luminari;
+  padding: 50px 0 0 10px;
+
+}
+
+#cartbutton{
+  margin-left: 10px;
+}
+
+/* ------- END CART -------- */
+
+/* ------- DETAILS -------- */
+
+.detailbtn{
+  margin-bottom: 20px;
+}
